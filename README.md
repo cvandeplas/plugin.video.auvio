@@ -12,6 +12,13 @@ https://github.com/rickybiscus/plugin.video.auvio
 ## Installation
 * Navigate to your `.kodi/addons/` folder
 * Clone this repository: `git clone https://github.com/rickybiscus/plugin.video.auvio.git`
+* Install the dependencies
+```
+wget -q https://mirrors.kodi.tv/addons/krypton/script.module.dateutil/script.module.dateutil-2.7.3.zip
+wget -q https://mirrors.kodi.tv/addons/krypton/script.module.unidecode/script.module.unidecode-0.4.16.zip
+wget -q https://mirrors.kodi.tv/addons/krypton/script.module.six/script.module.six-1.11.0.zip
+for z in *.zip; do unzip $z; rm $z; done
+```
 * (Re)start Kodi.
 
 ## TODO
